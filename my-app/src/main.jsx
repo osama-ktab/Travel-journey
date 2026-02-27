@@ -7,7 +7,7 @@ import { Fragment } from "react";
 import Header from "./header.jsx";
 // import MainContent from './mainContent.jsx'
 // import Footer from './footer.jsx'
-import Entry from "./entry.jsx";
+import Entry from "./Entry.jsx";
 import data from "./data.js";
 
 const root = createRoot(document.getElementById("root"));
