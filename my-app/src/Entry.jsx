@@ -1,7 +1,7 @@
 function Entry(props) {
   return (
-    <article className="main-content">
-      <img src={props.entry.img.src} alt={props.entry.img.alt} />
+    <article className="main-content ">
+      <img className="" src={props.entry.img.src} alt={props.entry.img.alt} />
       <div className="parents">
         <div className="location">
           <span className="small">{props.entry.country}</span>

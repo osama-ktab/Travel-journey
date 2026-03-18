@@ -1,18 +1,18 @@
 // import reactLogo from './assets/react.svg';
 function Header() {
-    return (
-        // <header className="firstheader">
+  return (
+    // <header className="firstheader">
 
-        //     <nav className='nav'>
-        //     <img src = {reactLogo} width="40px" />
-        //     <span>ReactFacts</span>
-        //     </nav>
-        // </header>
+    //     <nav className='nav'>
+    //     <img src = {reactLogo} width="40px" />
+    //     <span>ReactFacts</span>
+    //     </nav>
+    // </header>
 
-        <header>
-            <p>my travel journal</p>
-        </header>
-    )
+    <header>
+      <p className="bg-blue-500 text-center color-red p-5">my travel journal</p>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
